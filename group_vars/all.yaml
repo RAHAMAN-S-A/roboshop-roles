@@ -1,7 +1,7 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
 env: dev
-MONGODB_HOST: mongodb-{{ env }}rahaman88s.online
+MONGODB_HOST: localhost
 REDIS_HOST: redis-{{ env }}rahaman88s.online
 MYSQL_HOST: mysql-{{ env }}rahaman88s.online
 RABBITMQ_HOST: rabbitmq-{{ env }}rahaman88s.online
