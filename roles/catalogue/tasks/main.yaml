@@ -27,3 +27,8 @@
   ansible.builtin.dnf:
     name: mongodb-mongosh
     state: present
+
+- name: restart "{{ component }}"
+  ansible.builtin.service:
+    name: "{{ component }}"
+    state: restarted
